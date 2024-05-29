@@ -1,0 +1,48 @@
+/* Media Queries */
+@media (max-width: 600px) {
+    .heading {
+        justify-content: none;
+        align-items: left;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (max-width: 991.98px) {
+        .heading .logo {
+             background-clip: content-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    @media (max-width: 992px){
+        .heading #navbar ul {
+             display:flex;
+             flex-direction: column;  
+             align-items: center; 
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .home {
+        padding: 2% 2%;
+    }
+
+    .home h2 {
+        width: fit-content;
+        padding-top: 30px;
+    }
+
+    .home p {
+        padding: fixed;
+        width: 80%;
+
+    }
+    .home img{
+
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}

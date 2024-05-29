@@ -1,0 +1,1248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+.button {
+    width: 250px;
+    height: 90px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.button i {
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 40px;
+   
+}
+
+.logo h1 {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Jost", sans-serif;
+}
+
+:root {
+    --primary: #4294E3;
+    --secondary: #8F12FD;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    position: relative;
+    height: 59px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover {
+    color: white;
+    background-color: rgb(196, 186, 186);
+}
+
+.fa-check:before {
+    content: "\f00c";
+    font-size: 20px;
+}
+
+.btn {
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    color: white;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    /* margin: 20px; */
+
+}
+
+
+
+
+/* / / HOME / / */
+
+.home {
+    padding: 150px 150px;
+    background: linear-gradient(#4294E3, #8F12FD);
+    height: 700px;
+   display: flex;
+
+
+}
+ .homediv1{
+    display: flex;
+    flex-direction: column;
+ }
+
+.home h2 {
+    width: 75%;
+    color: white;
+    /* margin-bottom: 1.5rem; */
+    font-size: 50px;
+    
+    
+}
+
+.home p {
+    padding: 1rem;
+    color: white;
+    width: 70%;
+   
+    
+    
+}
+.home img{
+    position: relative;
+    
+}
+
+
+  
+    /* .img .bottomimg {
+        display: flex;
+        flex-direction: row-reverses;
+        position: absolute;
+        left: 0%;
+        bottom: -19%;
+        height: 27%;
+        width: 100%;
+    }
+     */
+.img .imggym{
+    position: absolute;
+    top: 206px;
+    right: 253px;
+    height: 399px;
+    width: 194px;
+}
+
+.imggym  {
+    animation-name:;
+    animation-duration: 2s;
+    animation-delay:0.3s; 
+    animation-fill-mode: both;
+    }
+    
+    @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+    }
+
+    .imggym  {
+        /* width: 100px;
+        height: 100px;
+        background: red;
+        position: relative; */
+        animation: mymove 1s 1;
+        animation-delay: -0.5s;
+      }
+      .imgphone {
+        animation: mymove 1s 1;
+        animation-delay: -0.5s;
+      }
+
+      .screenimg{
+        animation: mymove 3s 1;
+        animation-delay: -0.5s;
+      }
+      
+     
+      
+      @keyframes mymove {
+        from {top: 0px;}
+        to {bottom: 5px;}
+      }
+
+
+    .img .imgphone {
+        position: absolute;
+        top: 193px;
+        right: 245px;
+        height: 430px;
+        width: 220px;
+    }
+
+
+    
+    .img .bottomimg {
+        display: flex;
+        flex-direction: row-reverses;
+        position: absolute;
+        left: 0%;
+        bottom: -19%;
+        height: 45%;
+        width: 100%;
+    }
+ 
+
+
+
+/* about */
+
+.About {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+
+}
+.aboutdiv1{
+     display: flex;
+    flex-direction: column; 
+}
+
+.About h5 {
+    font-size: 35px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.About h1 {
+    color: black;
+    font-size: 44px;
+    font-weight: 800;
+    font-family: "Jost", sans-serif;
+}
+
+.About p {
+   
+    font-size: 25px;
+    color: #919294;
+}
+
+.symbol {
+    display: flex;
+    gap: 95px;
+}
+
+.symbol p {
+   
+    padding: 5px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button {
+   
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: var(--primary), (var(--secondary));
+    color: white;
+    width: 160px;
+    height: 60px;
+    justify-items: center;
+
+}
+
+.img2 img {
+    height: 400px;
+    width: 500px;
+   
+}
+
+.fa-paper-plane:before {
+    content: "\f1d8";
+    position: relative;
+    right: 35px;
+}
+
+
+
+.app-feature h5 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 45px;
+    text-transform: capitalize;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+
+.app-feature h3 {
+    text-align: center;
+    font-size: calc(1.375rem + 1.5vw);
+    color: #262B47;
+    line-height: 1.5;
+    /* margin: 0 0 15px 160px; */
+    font-family: "Jost", sans-serif;
+
+}
+
+.app-feature {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .app-feature p {
+    
+    justify-content: center;
+    text-align: center;
+} */
+
+.box {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.box:hover {
+    box-shadow: #919294;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  
+}
+
+ .box1 {
+    border-radius: 10px;
+    height: 200px;
+    width: 315px;
+    padding: 1.5rem; 
+    line-height: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: #919294;
+    background: #F0F6FF;
+  }
+
+
+
+
+.box1:hover{
+    transform: translateY(-5px);
+}
+
+
+.box2 {
+
+    border-radius: 10px;
+    height: 200px;
+    width: 315px;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: #919294;
+    background: #F0F6FF;
+    transition:transform 0.3 ease;
+}
+.box2:hover{
+    transform: translateY(-5px);
+}
+
+.box3 {
+
+    border-radius: 10px;
+    height: 200px;
+    width: 315px;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: #919294;
+    background: #F0F6FF;
+    transition:transform 0.3 ease;
+}
+.box3:hover{
+    transform: translateY(-5px);
+}
+
+.box4 {
+
+    border-radius: 10px;
+    height: 200px;
+    width: 315px;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: #919294;
+    background: #F0F6FF;
+    transition:transform 0.3 ease;
+   
+}
+.box4:hover{
+    transform: translateY(-5px);
+}
+
+.box5 {
+
+    border-radius: 10px;
+    height: 200px;
+    width: 315px;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: #919294;
+    background: #F0F6FF;
+    transition:transform 0.3 ease;
+}
+.box5:hover{
+    transform: translateY(-5px);
+}
+
+.box6 {
+    border-radius: 10px;
+    height: 200px;
+    width: 315px;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: #919294;
+    background: #F0F6FF;
+    transition:transform 0.3 ease;
+}
+.box6:hover{
+    transform: translateY(-5px);
+}
+
+.icon1 {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+  
+}
+
+.icon2 {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+  
+}
+
+.icon3 {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+   
+}
+
+.icon5 {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+ 
+}
+
+.icon6 {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+  
+}
+
+.ico7 {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+ 
+}
+
+/* / / SCREENSHOT / / */
+
+.screenshot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.screenshotdiv1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.screenshot h4 {
+  
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+
+.screenshot h1 {
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: "Jost", sans-serif;
+}
+
+.screenshot p {
+    font-size: larger;
+    color: #262B47;
+}
+
+.points p {
+    line-height: 29px;
+}
+
+.points i {
+    padding: 8px;
+    color: #4294E3;
+}
+
+.screenshot button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: var(--primary), (var(--secondary));
+    -webkit-text-fill-color: white;
+    color: antiquewhite;
+   
+}
+
+.screenimg img {
+
+    float: right;
+    height: 450px;
+}
+
+
+.easy h4 {
+    text-align: center;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+   
+
+
+}
+
+
+.easy h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Jost", sans-serif;
+  
+}
+
+.gift {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.gift h6 {
+    text-align: center;
+    font-size: x-large;
+   
+}
+
+.gift p {
+    text-align: center;
+   
+} 
+
+
+
+.gift1 {
+    border-radius: 10px;
+    height: 240px;
+    width: 300px;
+    padding: 1.5rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #919294;
+    background: #F0F6FF;
+    transition:transform 0.3 ease;
+}
+.gift1:hover{
+    transform: translateY(-5px);
+}
+
+.gift2 {
+    border-radius: 10px;
+    height: 240px;
+    width: 300px;
+    padding: 1.5rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #919294;
+    background: #F0F6FF;
+    transition:transform 0.3 ease;
+}
+.gift2:hover{
+    transform: translateY(-5px);
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+
+.gift3 {
+    border-radius: 10px;
+    height: 240px;
+    width: 300px;
+    padding: 1.5rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #919294;
+    background: #F0F6FF;
+    transition:transform 0.3 ease;
+}
+.gift3:hover{
+    transform: translateY(-5px);
+}
+
+.page4 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 5%;
+}
+
+
+.download h1 {
+    font-weight: bolder;
+    font-family: "Jost", sans-serif;
+    font-size: 50px;
+
+
+}
+
+.download h4 {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+
+.download p {
+    font-size: larger;
+    color: #919294;
+
+
+}
+.downloadbtn{
+    display: flex;
+}
+
+.download button {
+    border-radius: 18px;
+    height: 90px;
+    width: 243px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: var(--primary), (var(--secondary));
+    -webkit-text-fill-color: white;
+    color: antiquewhite;
+    margin: 0 2% 0;
+    border: none;
+    position: relative;
+    margin-top: 20px;
+}
+
+.fa-apple:before {
+    top: 11px;
+    content: "\f179";
+    font-size: 50px;
+    position: relative;
+    left: 10px;
+}
+
+.fa-android:before {
+    content: "\f17b";
+    top: 5px;
+    font-size: 35px;
+    position: relative;
+    left: 6px;
+}
+
+
+
+.photo img {
+    position: relative;
+    left: 15%;
+    height: 400px;
+    width: 500px;
+
+}
+
+.price h4 {
+    text-align: center;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10% 0 0;
+    font-size: 35px;
+
+}
+
+.price h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: "Jost", sans-serif;
+}
+
+.bn {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+
+.price a {
+    border-radius: 25px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    -webkit-text-fill-color: white;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+
+#square {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+#square h2 {
+
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+
+}
+
+
+
+#square button {
+
+    border-radius: 25px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: padding-box;
+    -webkit-background-clip: var(--primary), (var(--secondary));
+    -webkit-text-fill-color: white;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 60px;
+    border: none;
+}
+
+#square h4 {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    position: relative;
+    bottom: 6px;
+
+}
+
+.bn2 {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.price2 a {
+    border-radius: 25px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    -webkit-text-fill-color: white;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#squareS {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+#squareS h2 {
+
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+
+}
+
+
+
+#squareS button {
+
+    border-radius: 25px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: padding-box;
+    -webkit-background-clip: var(--primary), (var(--secondary));
+    -webkit-text-fill-color: white;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 60px;
+    border: none;
+}
+
+#squareS h4 {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    position: relative;
+    bottom: 6px;
+
+}
+
+
+
+
+
+
+.square1 button {
+    position: relative;
+    left: 25px;
+    top: 50px;
+}
+
+.square2 button {
+    position: relative;
+    left: 25px;
+    top: 50px;
+}
+
+.square3 button {
+    position: relative;
+    left: 25px;
+    top: 50px;
+}
+
+.square1 {
+    border-radius: 10px;
+    height: 400px;
+    width: 350px;
+    padding: 1.5rem;
+    line-height: 1rem;
+
+    color: #919294;
+    background: #F0F6FF;
+}
+
+.square2 {
+    border-radius: 10px;
+    height: 400px;
+    width: 350px;
+    padding: 1.5rem;
+    line-height: 1rem;
+
+    color: #919294;
+    background: #F0F6FF;
+}
+
+.square3 {
+    border-radius: 10px;
+    height: 400px;
+    width: 350px;
+    padding: 1.5rem;
+    line-height: 1rem;
+    color: #919294;
+    background: #F0F6FF;
+}
+
+
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 80px;
+
+}
+
+.testimonial h4 {
+    text-align: center;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+
+.testimonial h1 {
+    text-align: center;
+    font-family: "Jost", sans-serif;
+}
+
+.test {
+    gap: px;
+    display: flex;
+}
+
+.testimg img {
+    border-radius: 5px;
+    position: relative;
+    top: -12%;
+    right: -3%;
+}
+
+.testimg i {
+    position: relative;
+    top: -35%;
+    right: -4%;
+
+}
+
+.test h5 {
+    position: relative;
+    left: 125px;
+    bottom: -32px;
+}
+
+.test h6 {
+    position: relative;
+    left: 122px;
+    bottom: -40px;
+    font-size: 1.3rem;
+}
+
+.testimonial p {
+    text-align: center;
+}
+
+.test1 {
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    height: 240px;
+    width: 335px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: padding-box;
+    -webkit-background-clip: var(--primary), (var(--secondary));
+    -webkit-text-fill-color: white;
+    margin: 8% 0 0 23%;
+}
+
+.test2 {
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    height: 240px;
+    width: 335px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: padding-box;
+    -webkit-background-clip: var(--primary), (var(--secondary));
+    -webkit-text-fill-color: white;
+    margin: 8% 5%;
+}
+
+.Contact h4 {
+    text-align: center;
+}
+
+.Contact h6 {
+    text-align: center;
+    margin: 2% 0 2% 0;
+    font-size: x-large;
+    font-family: "Jost", sans-serif;
+}
+
+.Contact p {
+    margin: 2% 10% 5% 10%;
+}
+
+
+#input-text {
+    margin: 0 0 0 330px;
+}
+
+.text {
+    margin: 5% 15% 0 5%;
+}
+
+.text1 {
+    margin: 2% 15% 0 5%;
+}
+
+.text2 {
+    margin: 2% 15% 0 5%;
+}
+
+.text input {
+    border-radius: 10px;
+    height: 70px;
+    width: 300px;
+    padding: 10px;
+}
+
+.text1 input {
+    border-radius: 10px;
+    height: 70px;
+    width: 600px;
+    padding: 10px;
+
+}
+
+.text2 input {
+    border-radius: 10px;
+    height: 140px;
+    width: 600px;
+    padding: 10px;
+}
+
+.Contact button {
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: padding-box;
+    -webkit-background-clip: var(--primary), (var(--secondary));
+    -webkit-text-fill-color: white;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    margin: 3% 40% 5% 40%;
+    border: none;
+}
+
+.Ending {
+    display: flex;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: padding-box;
+    -webkit-background-clip: var(--primary), (var(--secondary));
+    -webkit-text-fill-color: white;
+    height: 650px;
+     line-height: 35px;
+    gap: 10%;
+    /* padding: 25px; */
+    position: relative; 
+
+
+}
+
+.footer
+{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 25px;
+width: 70%;
+gap: 8%;
+
+}
+
+  
+.img2 .topimg {
+    display: flex;
+   
+    position: absolute;
+    top: 0%;
+    left: 0%;
+ 
+    height: 45%;
+    width: 100%;
+}
+
+.div1 p {
+    gap: 4px;
+}
+
+
+.div4 input {
+    color: #000;
+    background: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#navbar2 {
+    position: relative;
+    margin: -3% 0 0 60%;
+}
+
+#navbar2 ul {
+    display: flex;
+}
+
+#navbar2 ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar2 ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navbar2 ul li a:hover {
+    color: black;
+    background-color: rgb(100, 98, 98);
+}
+
+.About .button {
+    height: 60px;
+    width: 200px;
+    border: none;
+    position: relative;
+    left: 100px;
+    top: 65px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: var(--primary), (var(--secondary));
+    -webkit-text-fill-color: white;
+    color: antiquewhite;
+    padding: 6px 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+.setting {
+    font-size: 80px;
+    position: relative;
+    bottom: 80px;
+}
+.setting i{
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile {
+    font-size: 80px;
+    position: relative;
+    bottom: 80px;
+}
+.profile i {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.check {
+    font-size: 80px;
+    position: relative;
+    bottom: 80px;
+}
+
+.check i {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

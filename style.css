@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    }
+    
+    /* Navigation bar styles */
+    #navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    }
+    
+    #navbar ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    
+    #navbar ul li {
+    display: inline;
+    margin-right: 10px;
+    }
+    
+    #navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: inline-block;
+    }
+    
+    #navbar ul li a:hover {
+    background-color: #555;
+    }
+    
+    /* Button styles */
+    .btn {
+    display: inline-block;
+    background-color: #74C0FC;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+    
+    .btn:hover {
+    background-color: #4a90e2;
+    }
+    
+    /* Section styles */
+    .heading, .home, .About, .app-feature, .screenshot, .easy, .page4, .price, .testimonial, .Contact, .Ending {
+    padding: 20px;
+    text-align: center;
+    }
+    .heading h1 {
+        font-size: 2em;
+        color: #333;
+        }
+        
+        .logo {
+        text-align: left;
+        }
+        
+        /* Style for the main sections */
+        .home, .About, .app-feature, .screenshot, .easy, .page4, .price, .testimonial, .Contact, .Ending {
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Image styles */
+        .img img, .screenimg img, .testimg img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        }
+        
+        /* Form styles */
+        #input-text input[type="text"], .newsletter input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        }
+        
+        #input-text .text, #input-text .text1, #input-text .text2 {
+        margin-bottom: 20px;
+        }
+        
+        /* Button styles for different states */
+        .btn-primary {
+        background-color: #74C0FC;
+        color: white;
+        }
+        
+        .btn-primary:hover {
+        background-color: #4a90e2;
+        }
+        
+        .btn-secondary {
+        background-color: #ddd;
+        color: #333;
+        }
+        
+        .btn-secondary:hover {
+        background-color: #ccc;
+        }
+        
+        /* Pricing plan styles */
+        .price .bn button {
+        margin: 10px;
+        padding: 10px 20px;
+        border: 1px solid #74C0FC;
+        background-color: transparent;
+        color: #74C0FC;
+        border-radius: 20px;
+        }
+        
+        .price .bn button:hover {
+        background-color: #74C0FC;
+        color: white;
+        }
+        
+        /* Testimonial styles */
+        .testimonial .test {
+        display: flex;
+        justify-content: space-around;
+        }
+        
+        .testimonial .test div {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        }
+        
+        .testimonial .test h6 {
+        color: #74C0FC;
+        margin: 10px 0;
+        }
+        
+        .testimonial .test p {
+        font-size: 0.9em;
+        line-height: 1.5;
+        }
+        
+        /* Footer styles */
+        .Ending {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        }
+        
+        .Ending h1, .Ending p {
+        margin-bottom: 10px;
+        }
+        
+        .Ending .social i {
+        margin: 0 10px;
+        color: #74C0FC;
+        }
+        
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+        .testimonial .test {
+        flex-direction: column;
+        }
+        }
+
+/* Extend the base styles */
+.heading h1 {
+font-size: 2em;
+color: #333;
+}
+
+.logo {
+text-align: left;
+}
+
+/* Style for the main sections */
+.home, .About, .app-feature, .screenshot, .easy, .page4, .price, .testimonial, .Contact, .Ending {
+margin: 20px;
+padding: 20px;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styles */
+.img img, .screenimg img, .testimg img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+}
+
+/* Form styles */
+#input-text input[type="text"], .newsletter input[type="email"] {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+
+#input-text .text, #input-text .text1, #input-text .text2 {
+    margin-bottom: 20px;
+}
+
+/* Button styles for different states */
+.btn-primary {
+background-color: #74C0FC;
+color: white;
+}
+
+.btn-primary:hover {
+background-color: #4a90e2;
+}
+
+.btn-secondary {
+background-color: #ddd;
+color: #333;
+}
+
+.btn-secondary:hover {
+background-color: #ccc;
+}
+
+/* Pricing plan styles */
+.price .bn button {
+margin: 10px;
+padding: 10px 20px;
+border: 1px solid #74C0FC;
+background-color: transparent;
+color: #74C0FC;
+border-radius: 20px;
+}
+
+.price .bn button:hover {
+background-color: #74C0FC;
+color: white;
+}
+
+/* Testimonial styles */
+.testimonial .test {
+display: flex;
+justify-content: space-around;
+}
+
+.testimonial .test div {
+flex: 1;
+margin: 10px;
+padding: 20px;
+text-align: center;
+}
+
+.testimonial .test h6 {
+color: #74C0FC;
+margin: 10px 0;
+}
+
+.testimonial .test p {
+font-size: 0.9em;
+line-height: 1.5;
+}
+
+/* Footer styles */
+.Ending {
+background-color: #333;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+.Ending h1, .Ending p {
+margin-bottom: 10px;
+}
+
+.Ending .social i {
+margin: 0 10px;
+color: #74C0FC;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+.testimonial .test {
+flex-direction: column;
+}
+}
+
+/* Add any additional styles as needed */
+
+
+    /* Footer styles */
+    #navbar2 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    }
+    
+    #navbar2 ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    
+    #navbar2 ul li {
+    display: inline;
+    margin-right: 10px;
+    }
+    
+    #navbar2 ul li a {
+        color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: inline-block;
+    }
+    
+    #navbar2 ul li a:hover {
+    background-color: #555;
+    }
+   /* Style for the screenshot section */
+   .screenshot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.screenimg {
+    flex: 1;
+text-align: right; /* Aligns the image to the right */
+}
+
+.screenimg img {
+max-width: 100%;
+height: auto;
+}
+
+/* Style for the download section */
+.page4 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.page4 .download {
+flex: 1;
+text-align: left; /* Keeps the text on the left */
+}
+
+.page4 .photo {
+flex: 1;
+order: -1; /* Moves the photo to the left side */
+}
+
+.page4 .photo img {
+max-width: 100%;
+height: auto;
+}
+
+/* Ensure responsiveness on smaller screens */
+@media (max-width: 768px) {
+.screenshot, .page4 {
+flex-direction: column;
+}
+
+.screenimg, .page4 .photo {
+text-align: center;
+order: 0;
+}
+}
